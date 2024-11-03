@@ -51,6 +51,7 @@ We'll be mostly using Jupyter Lab in this course. For those new to Jupyter Lab /
 
 If you have a specific folder for projects, navigate to it using the cd command. For example:  
 `cd C:\Users\YourUsername\Documents\Projects`
+D:\repos\projects\llm_engineering
 
 If you don't have a projects folder, you can create one:
 ```
@@ -203,7 +204,7 @@ On a Mac: `source venv/bin/activate`
 On a PC: `venv\Scripts\activate`
 3. Run `pip install -r requirements.txt`
 4. Create a file called `.env` in the project root directory and add any private API keys, such as below. (The next section has more detailed instructions for this, if you prefer.)
-   
+
 ```
 OPENAI_API_KEY=xxxx
 GOOGLE_API_KEY=xxxx
